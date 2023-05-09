@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">File Watcher</string>
+    <string name="file_icon_description">File icon</string>
+    <string name="dir_icon_description">Directory icon</string>
+</resources>
