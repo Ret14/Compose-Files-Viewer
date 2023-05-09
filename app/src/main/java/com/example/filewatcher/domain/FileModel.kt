@@ -5,5 +5,5 @@ data class FileModel(
     val fileSize: Long,
     val creationDate: Long,
     val absPath: String,
-    val isDir: Boolean
+    val isDir: Boolean,
 )
