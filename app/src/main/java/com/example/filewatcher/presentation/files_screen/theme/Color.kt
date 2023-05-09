@@ -1,4 +1,4 @@
-package com.example.filewatcher.ui.theme
+package com.example.filewatcher.presentation.files_screen.theme
 
 import androidx.compose.ui.graphics.Color
 

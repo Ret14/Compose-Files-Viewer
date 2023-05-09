@@ -11,8 +11,10 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.filewatcher.presentation.files_screen.FilesScreen
-import com.example.filewatcher.ui.theme.FileWatcherTheme
+import com.example.filewatcher.presentation.files_screen.theme.FileWatcherTheme
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
