@@ -12,7 +12,7 @@ import java.util.*
 data class LocalFile(
     @PrimaryKey(autoGenerate = true) val id: Int = 0,
     val absPath: String,
-    val hashCode: Int,
+    val hash: Int,
     val fileName: String,
     val isDir: Boolean,
     val fileSize: Long,

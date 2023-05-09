@@ -13,7 +13,7 @@ interface FileDao {
             SELECT * 
             FROM file A INNER JOIN file B
             ON A.absPath = B.absPath
-            WHERE A.hashCode <> B.hashCode
+            WHERE A.hash <> B.hash
         """
     )
     suspend fun readChangedFiles(): List<LocalFile>

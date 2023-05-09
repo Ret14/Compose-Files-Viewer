@@ -34,7 +34,7 @@ class FileRepositoryImpl(
 
     private fun File.toLocalFile() = LocalFile(
         absPath = absolutePath,
-        hashCode = hashCode(),
+        hash = hashCode(),
         fileName = name,
         isDir = isDirectory,
         fileSize = length(),
